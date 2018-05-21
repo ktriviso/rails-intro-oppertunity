@@ -29,7 +29,7 @@ MVC is an architectural design pattern for creating applications.  It's meant to
 
 **NOTE:** Run the express generator as follows and see how close it gets to the MVC model:  **express express_app --view=ejs**
 
-**Q:** To what extend did we conform to the model and what is missing? 
+**Q:** To what extend did does this conform to the model and what is missing? 
 
 ## There is more than just MVC...
 MVC is just one architectural design pattern.  Several other patterns include:
