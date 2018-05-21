@@ -9,7 +9,13 @@
 - Explore the file structure of a Rails app
 - Install Rails and build our first app about books
 
-**Exercise**: Based on what you read this weekend on MVC pair up with someone and write down as many facts as you can remmeber. Also include how our previous node\express apps came to modling MVC. 
+
+# How does Rails compare with Node?
+We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails were the focus of WDI?  So why the switch?  
+
+Let's take a look at this [comparison](https://medium.com/@TechMagic/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development-9aae7a3f08bf) and see why GA made the decision and how they hope it will help position students to fill the need for Node\Express developers. 
+
+Another comparison worth looking at is the [Popularity of Programming Languages Index](http://pypl.github.io/PYPL.html)
 
 # What is MVC?
 
@@ -43,12 +49,6 @@ A framework is a program, set of programs, and/or code library that writes most 
 
 </details>
 
-# How does Rails compare with Node?
-We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails were the focus of WDI?  So why the switch?  
-
-Let's take a look at this [comparison](https://medium.com/@TechMagic/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development-9aae7a3f08bf) and see why GA made the decision and how they hope it will help position students to fill the need for Node\Express developers. 
-
-Another comparison worth looking at is the [Popularity of Programming Languages Index](http://pypl.github.io/PYPL.html)
 
 # Convention over configuration
 
