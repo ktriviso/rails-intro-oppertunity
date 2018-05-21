@@ -9,8 +9,6 @@
 - Explore the file structure of a Rails app
 - Install Rails and build our first app about books
 
-**Exercise**: Based on what you read this weekend on MVC pair up with someone and write down as many facts as you can remmeber. Also include how our previous node\express apps came to modling MVC. 
-
 # What is MVC?
 
 MVC is an architectural design pattern for creating applications.  It's meant to create separation of concerns for the following:
@@ -23,7 +21,7 @@ MVC is an architectural design pattern for creating applications.  It's meant to
 
 **NOTE:** Run the express generator as follows and see how close it gets to the MVC model:  **express express_app --view=ejs**
 
-**Q:** To what extend did we conform to the model and what is missing? 
+**Q:** To what extend does it conform to the model and what is missing? 
 
 ## There is more than just MVC...
 MVC is just one architectural design pattern.  Several other patterns include:
