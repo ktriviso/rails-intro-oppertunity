@@ -9,6 +9,13 @@
 - Explore the file structure of a Rails app
 - Install Rails and build our first app about books
 
+# How does Rails compare with Node?
+We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails was the focus of WDI?  So why the switch?  
+
+Let's take a look at this [comparison](https://medium.com/@TechMagic/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development-9aae7a3f08bf) and see why GA made the decision and how they hope it will help position students to fill the need for Node\Express developers. 
+
+Another comparison worth looking at is the [Popularity of Programming Languages Index](http://pypl.github.io/PYPL.html)
+
 # What is MVC?
 
 MVC is an architectural design pattern for creating applications.  It's meant to create separation of concerns for the following:
@@ -21,7 +28,8 @@ MVC is an architectural design pattern for creating applications.  It's meant to
 
 **NOTE:** Run the express generator as follows and see how close it gets to the MVC model:  **express express_app --view=ejs**
 
-**Q:** To what extend does it conform to the model and what is missing? 
+**Q:** To what extend did does this conform to the model and what is missing? 
+>>>>>>> f942d7ad992f5f0332cfa6a9854f7b43d46147e7
 
 ## There is more than just MVC...
 MVC is just one architectural design pattern.  Several other patterns include:
@@ -33,7 +41,7 @@ MVC is just one architectural design pattern.  Several other patterns include:
 
 # What is Ruby on Rails?
 
-Rails is an **MVC framework** for Ruby. By now you should be able to describe MVC but what is a framework?
+[Rails](https://rubyonrails.org/) is an **MVC framework** for Ruby. By now you should be able to describe MVC but what is a framework?
 
 <details>
   <summary>**Framework Defined**</summary>
@@ -41,12 +49,6 @@ A framework is a program, set of programs, and/or code library that writes most 
 
 </details>
 
-# How does Rails compare with Node?
-We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails were the focus of WDI?  So why the switch?  
-
-Let's take a look at this [comparison](https://medium.com/@TechMagic/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development-9aae7a3f08bf) and see why GA made the decision and how they hope it will help position students to fill the need for Node\Express developers. 
-
-Another comparison worth looking at is the [Popularity of Programming Languages Index](http://pypl.github.io/PYPL.html)
 
 # Convention over configuration
 
@@ -71,7 +73,7 @@ The [Getting Started Guide](http://guides.rubyonrails.org/getting_started.html) 
 
 ### Lab 1 - Caputre Your Knowledge of MVC - 20min
 
-Open the labs folder and answer the questions in the lab_1_mvc_rails.md file.
+Open the labs folder and answer the questions in the **lab_1_mvc_rails.md** file.
 
 Document your understanding of MVC and Rails
 
@@ -112,7 +114,7 @@ rails -v
 To create a Rails app, we use the `rails new` command. This sets us up with our skeleton Rails app. There are a lot of options that you can provide with the `rails new` command. Try `rails new --help` to take a look at them all.
 
 ```
-rails new books 
+rails new books -G
 ```
 
 Now if we `cd books` and type
