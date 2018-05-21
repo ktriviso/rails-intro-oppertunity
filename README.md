@@ -114,7 +114,7 @@ rails -v
 To create a Rails app, we use the `rails new` command. This sets us up with our skeleton Rails app. There are a lot of options that you can provide with the `rails new` command. Try `rails new --help` to take a look at them all.
 
 ```
-rails new books 
+rails new books -G
 ```
 
 Now if we `cd books` and type
