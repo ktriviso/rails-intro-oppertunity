@@ -73,7 +73,7 @@ The [Getting Started Guide](http://guides.rubyonrails.org/getting_started.html) 
 
 ### Lab 1 - Caputre Your Knowledge of MVC - 20min
 
-Open the labs folder and answer the questions in the lab_1_mvc_rails.md file.
+Open the labs folder and answer the questions in the **lab_1_mvc_rails.md** file.
 
 Document your understanding of MVC and Rails
 
