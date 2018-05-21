@@ -41,7 +41,7 @@ MVC is just one architectural design pattern.  Several other patterns include:
 
 # What is Ruby on Rails?
 
-Rails is an **MVC framework** for Ruby. By now you should be able to describe MVC but what is a framework?
+[Rails](https://rubyonrails.org/) is an **MVC framework** for Ruby. By now you should be able to describe MVC but what is a framework?
 
 <details>
   <summary>**Framework Defined**</summary>
