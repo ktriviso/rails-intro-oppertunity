@@ -35,5 +35,5 @@
 - Create a new controller as before but this time use the `generate` command. 
 - Using the `resources` keyword add only index and show to the todos routes
 - Confirm the routes have been created via the command line
-- Update the rest of the app to display the same custom message as you did in the Part 3
+- Update the rest of the app to display the same custom message for the index and show views
 - Add\Commit the changes to the `generate` branch
