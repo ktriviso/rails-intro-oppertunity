@@ -11,7 +11,7 @@
 
 
 # How does Rails compare with Node?
-We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails were the focus of WDI?  So why the switch?  
+We've spent the last 9 weeks learning JS\Node\Express\React and now were switching languages and servers all together to Ruby\Rails.  Would you believe that at one point Ruby\Rails was the focus of WDI?  So why the switch?  
 
 Let's take a look at this [comparison](https://medium.com/@TechMagic/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development-9aae7a3f08bf) and see why GA made the decision and how they hope it will help position students to fill the need for Node\Express developers. 
 
