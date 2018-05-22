@@ -1,0 +1,77 @@
+Started GET "/" for ::1 at 2018-05-21 12:00:20 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (7.1ms)
+Completed 200 OK in 32ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2018-05-21 12:00:32 -0400
+  
+SyntaxError (/Users/triviso/Desktop/code/wdi/rails-intro-opportunity/student/books/app/controllers/welcome_controller.rb:5: syntax error, unexpected ',', expecting =>
+    @data = {'hello', 'there'}
+                    ^
+/Users/triviso/Desktop/code/wdi/rails-intro-opportunity/student/books/app/controllers/welcome_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+    @data = {'hello', 'there'}
+                             ^):
+  
+app/controllers/welcome_controller.rb:5: syntax error, unexpected ',', expecting =>
+app/controllers/welcome_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+Started GET "/welcome" for ::1 at 2018-05-21 12:00:48 -0400
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2018-05-21 12:08:48 -0400
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2018-05-21 12:08:49 -0400
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2018-05-21 12:09:20 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (0.4ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2018-05-21 12:09:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-21 12:22:24 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 19ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2018-05-21 12:22:28 -0400
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 742ms (Views: 739.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/show" for 127.0.0.1 at 2018-05-21 12:25:02 -0400
+Started GET "/books/show" for 127.0.0.1 at 2018-05-21 12:25:12 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
